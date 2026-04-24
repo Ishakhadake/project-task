@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #035175; /* Dark purple background */
+  margin: 20px;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f3f2f5;
+  color: #181719; /* Changed from #fff to dark so text shows */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #023657; /* Dark purple links to match body */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.about, .skills, .contact {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+h1, h2 {
+  color: #181719;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  object-fit: cover;
+  border: 3px solid #023f71;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #034771;
+  color: white;
+  display: inline-block;
+  padding: 6px 15px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.contact a {
+  color: #023b57;
+  font-weight: bold;
+}
